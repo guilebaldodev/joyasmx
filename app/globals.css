@@ -154,7 +154,8 @@ input,button,textarea,select{
 }
 
 .footer{
-  background-color:#DF1E82;
+  background-color:#4A4A4A;
+  background-color: #005846;
   align-self: flex-end;
   display: flex;
   flex-direction: column;
@@ -365,7 +366,7 @@ summary{
 .accordion-plus{
   font-weight: 600;
   font-size: 28px;
-  color: #016FDC;
+  color: #005644;
   padding-left: 1rem;
 }
 

@@ -3,8 +3,8 @@ import "./globals.css";
 import { open_sans, fredoka, lexend_deca } from "./ui/fonts";
 
 export const metadata: Metadata = {
-  title: "Flores MX",
-  description: "Catálogo en línea de arreglos florales, ramos, floreros y más.",
+  title: "Joyas MX",
+  description: "Catálogo en línea de anillos, collares, pulseras y aretes elegantes.",
 };
 
 

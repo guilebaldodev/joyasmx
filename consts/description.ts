@@ -1,13 +1,13 @@
-export const flowerDescription = `
+export const jewelryDescription = `
   <div class="product-detail-property">
     <h4>Medidas</h4>
-    <p>Medidas referenciales según el tipo de arreglo</p>
+    <p>Las medidas pueden variar según el tipo de pieza (anillo, cadena, pulsera). Consulta la guía de tallas o contáctanos por WhatsApp para apoyo personalizado.</p>
   </div>
 
   <div class="product-detail-property">
-    <h4>Flores</h4>
+    <h4>Material</h4>
     <p>
-      Combinación de flores frescas como rosas, girasoles, tulipanes, entre otras, según la categoría del producto.
+      Pieza elaborada en materiales de alta calidad como oro 10k/14k, plata ley .925 o acero inoxidable. Cada producto indica claramente su composición.
     </p>
   </div>
 
@@ -15,17 +15,16 @@ export const flowerDescription = `
     <h4>Descripción</h4>
     <p>
       Esta es una descripción de demostración. Los administradores del sistema podrán escribir descripciones detalladas
-      como esta, personalizando cada producto con medidas, tipos de flores, recomendaciones y cualquier otro dato relevante
-      para sus clientes.
+      como esta, personalizando cada producto con especificaciones técnicas, recomendaciones de uso y cuidados.
     </p>
   </div>
 
   <div class="product-detail-include">
     <h4>Este producto puede incluir</h4>
     <ul>
-      <li>Arreglo floral o ramo</li>
-      <li>Florero o base decorativa</li>
-      <li>Tarjeta personalizada</li>
+      <li>Estuche elegante para regalo</li>
+      <li>Certificado de autenticidad (si aplica)</li>
+      <li>Opción de personalización o grabado</li>
     </ul>
   </div>
 `;

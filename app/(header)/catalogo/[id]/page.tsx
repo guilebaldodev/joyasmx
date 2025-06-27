@@ -4,7 +4,7 @@
 import styles from "./product.module.css";
 import Gallery from "@/app/ui/SwiperGallery";
 import { useParams } from "next/navigation";
-import { flowerCatalog } from "@/consts";
+import { jewelryCatalog } from "@/consts";
 import { useCartStore } from "@/store/cartStore";
 import { useState } from "react";
 import { toast } from "react-toastify";
@@ -19,7 +19,7 @@ const ProductDetailPage = () => {
   const addToCart = useCartStore((state) => state.addToCart);
   const [loading, setLoading] = useState(false);
 
-  const product = flowerCatalog.find((product) => product.id == parseInt(id));
+  const product = jewelryCatalog.find((product) => product.id == parseInt(id));
   
 
   if (!product) return <>....Error</>;
@@ -29,7 +29,7 @@ const ProductDetailPage = () => {
 *${product.titulo}*
 ${product.categoria}
 Precio: $${formatPrice(product.precio)}
-${process.env.NEXT_PUBLIC_URL}/catalogo/${product.id}`;
+${process.env.NEXT_PUBLIC_URL}catalogo/${product.id}`;
 
   const whatsappUrl = `https://wa.me/${
     process.env.NEXT_PUBLIC_PHONE_NUMBER

@@ -3,7 +3,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from '../admin.module.css';
-import { flowerCatalog } from '@/consts';
+import { jewelryCatalog } from '@/consts';
 
 const AdminProducts = () => {
 
@@ -52,8 +52,8 @@ const AdminProducts = () => {
               </tr>
             </thead>
             <tbody>
-              {flowerCatalog &&
-                flowerCatalog.map((bull, id) => (
+              {jewelryCatalog &&
+                jewelryCatalog.map((bull, id) => (
                   <tr key={id}>
                     <td>{id + 1}</td>
                     <td>

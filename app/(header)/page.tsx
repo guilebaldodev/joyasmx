@@ -2,12 +2,12 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import Link from "next/link";
-import { bullCatalog, flowerCatalog, Product } from "@/consts";
+import { jewelryCatalog, Product } from "@/consts";
 import ProductCard from "../ui/Product";
 
 export default function Home() {
 
-  const message = encodeURIComponent('¡Buenos dias! Me gustaría recibir más información sobre las flores.');
+  const message = encodeURIComponent('¡Buenos dias! Me gustaría recibir más información sobre la joyeria.');
   const whatsAppURL = `https://wa.me/${process.env.NEXT_PUBLIC_PHONE_NUMBER}?text=${message}`;
 
 
@@ -20,42 +20,43 @@ export default function Home() {
       <div className={styles['hero-container']}>
 <div className={styles['hero-texts']}>
   <h1>
-    Sorprende con un <span className={styles['primary-color']}>Arreglo Floral Único</span>
+    Eleva tu estilo con <span className={styles['primary-color']}>Joyería Elegante</span>
   </h1>
   <h3>
-    En Flores MX creamos ramos y arreglos para cada ocasión: cumpleaños, aniversarios, detalles románticos o simplemente para alegrar el día. Entrega rápida y flores siempre frescas.
+    En Joyas MX encontrarás piezas únicas para cada ocasión: regalos especiales, aniversarios, eventos o para brillar todos los días. Diseños exclusivos y atención personalizada.
   </h3>
-  <Link href="/catalogo">Productos</Link>
+  <Link href="/catalogo">Ver catálogo</Link>
 </div>
 
         <div className={styles['hero-image']}>
-          <Image src="/home/header2.png" alt="Hero" width={400} height={400} style={{width:"100%",height:'auto'}} />
+          <Image src="/home/hero.png" alt="Hero" width={400} height={400} style={{width:"100%",height:'auto'}} />
         </div>
       </div>
 
 <div className={styles['category-container']}>
 
   <div className={styles['category-item']}>
-    <Image src="/home/ramo.png" alt="Ramos de flores" width={40} height={40} />
-    <p>Ramos</p>
+    <Image src="/home/anillo.png" alt="Anillos" width={40} height={40} />
+    <p>Anillos</p>
   </div>
 
   <div className={styles['category-item']}>
-    <Image src="/home/florero.png" alt="Arreglos florales" width={40} height={40} />
-    <p>Floreros</p>
+    <Image src="/home/collar.png" alt="Collares" width={40} height={40} />
+    <p>Collares</p>
   </div>
 
   <div className={styles['category-item']}>
-    <Image src="/home/globo.png" alt="Rosas" width={40} height={40} />
-    <p>Globos</p>
+    <Image src="/home/pulsera.png" alt="Pulseras" width={40} height={40} />
+    <p>Pulseras</p>
   </div>
 
   <div className={styles['category-item']}>
-    <Image src="/home/caja.png" alt="Cajas de regalo" width={40} height={40} />
-    <p>Cajas de Regalo</p>
+    <Image src="/home/arete.png" alt="Aretes" width={40} height={40} />
+    <p>Aretes</p>
   </div>
 
 </div>
+
 
 
       <div className={styles['landing-products']}>
@@ -63,7 +64,7 @@ export default function Home() {
           <h3>Nuestros mejores productos</h3>
         </div>
         <div className={styles['landing-products-container']}>
-          {flowerCatalog && flowerCatalog.map((product:Product,index) => (
+          {jewelryCatalog && jewelryCatalog.map((product:Product,index) => (
             <ProductCard key={index} product={product} />
           ))}
         </div>
@@ -73,7 +74,7 @@ export default function Home() {
 <div className={styles['about-us-testimonials']}>
   <div className={styles['about-us-titles']}>
     <h3>Testimonios</h3>
-    <h4>Conoce la experiencia de quienes han confiado en nuestros arreglos florales</h4>
+    <h4>Conoce la experiencia de quienes han confiado en la calidad de nuestras joyas</h4>
   </div>
 </div>
 
@@ -98,7 +99,7 @@ export default function Home() {
       <h3>José Hernández</h3>
       <h4>Cliente</h4>
       <p>
-        <q>El ramo que pedí superó mis expectativas. Lo entregaron justo a tiempo y con flores frescas y hermosas.</q>
+        <q>Pedí un anillo como regalo y quedó increíble. El empaque y el diseño superaron lo que imaginaba.</q>
       </p>
     </div>
     <div className={styles['testimonial-footer']}>
@@ -126,7 +127,7 @@ export default function Home() {
       <h3>Lucía Ramírez</h3>
       <h4>Cliente</h4>
       <p>
-        <q>Encargué un arreglo personalizado para el aniversario de mis padres y quedó precioso. ¡Gracias por hacerlo tan especial!</q>
+        <q>Me enamoré del collar que compré. Lo uso todos los días y siempre recibo cumplidos. Excelente atención.</q>
       </p>
     </div>
     <div className={styles['testimonial-footer']}>
@@ -154,7 +155,7 @@ export default function Home() {
       <h3>Raúl García</h3>
       <h4>Cliente</h4>
       <p>
-        <q>Compré una caja de rosas con chocolates para sorprender a mi novia y le encantó. Todo llegó en perfecto estado.</q>
+        <q>Compré unos aretes para el cumpleaños de mi mamá y le encantaron. La presentación es muy elegante.</q>
       </p>
     </div>
     <div className={styles['testimonial-footer']}>
@@ -169,11 +170,11 @@ export default function Home() {
  
 <div className={styles['fill-banner']}>
   <h3>
-    Arreglos <span className={styles['primary-color']}>Personalizados</span>
+    Joyería <span className={styles['primary-color']}>Personalizada</span>
   </h3>
   <p>
-    Crea momentos únicos con nuestros arreglos florales hechos a medida. Elige las flores, el estilo y la ocasión,
-    y nosotros nos encargamos del resto. Atención directa por WhatsApp para que tu pedido sea perfecto.
+    Haz tus ideas realidad con nuestras piezas personalizadas. Elige el diseño, el material y el detalle especial, 
+    y nosotros lo creamos para ti. Atención directa por WhatsApp para que tu pedido sea justo como lo imaginaste.
   </p>
 
   <a 
@@ -184,6 +185,7 @@ export default function Home() {
     ¡Haz tu pedido por WhatsApp!
   </a>
 </div>
+
 
 
 

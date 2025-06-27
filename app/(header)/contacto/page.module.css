@@ -11,7 +11,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("/home/flowers-background3.jpg");
+    background-image: url("/home/jewel-background.webp");
     background-size: cover;
     background-position: center;
     position: relative;
@@ -19,7 +19,6 @@
   }
   
   .contact-banner h2{
-    font-family: 'Fredoka', sans-serif;
     font-weight: 600;
     color: #fff;
     font-size: 35px;
@@ -47,8 +46,8 @@
   
   
   .contact-subtitle{
-    font-size: 25px;
-    font-weight: 200;
+    font-size: 28px;
+    font-weight: 600;
     padding-bottom: 1rem;
     border-bottom: 2px solid rgba(86, 96, 115,.3)
   }
@@ -141,7 +140,7 @@
     margin-top: 2rem;
     height: 50px;
     background-color: var(--principal-color);
-    background-color: #FFC220;
+    background-color: #27251F;
     color: white;
     border: 1px solid #cccccc;
     border: none;

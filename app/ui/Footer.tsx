@@ -11,11 +11,11 @@ const Footer = () => {
       <footer className="footer">
             <div className="footer-info">
                 <div className="circle-logotype">
-                    <Image src="/layout/flower.png" alt="Logotipo" width={100} height={100}  />
+                    <Image src="/layout/jewel-white.png" alt="Logotipo" width={100} height={100}  />
                 </div>
 
                 <div className="footer-section">
-                    <h3>Flores Mx</h3>
+                    <h3>Joyas Mx</h3>
                     <ul>
                         <li>
                             <Link href="/catalogo">Catologo</Link>
@@ -31,11 +31,11 @@ const Footer = () => {
                     <ul>
                         <li>
                             <Image src="/layout/facebook-icon.png" alt="Facebook" width={22} height={22} />
-                            <Link href="">floresmx</Link>
+                            <Link href="">joyasmx</Link>
                         </li>
                         <li>
                             <Image src="/layout/instagram-icon.png" alt="Instagram" width={22} height={22} />
-                            <Link href="">floresmxinsta</Link>
+                            <Link href="">joyasmxinsta</Link>
                         </li>
                         <li>
                             <Image src="/layout/whatsapp-icon.png" alt="WhatsApp" width={22} height={22} />
@@ -49,7 +49,7 @@ const Footer = () => {
                     <ul>
                         <li>
                             <Image src="/layout/email-icon.png" alt="Email" width={22} height={22} />
-                            <p>floresmx@gmail.com</p>
+                            <p>joyasmx@gmail.com</p>
                         </li>
                         <li>
                             <Image src="/layout/phone-icon.png" alt="Teléfono" width={22} height={22} />
@@ -68,7 +68,7 @@ const Footer = () => {
             <div className="footer-developer">
                 
                 <p>
-                    Copyright FloresMx - 2025. Todos los derechos reservados.
+                    Copyright JoyasMx - 2025. Todos los derechos reservados.
                 </p>
             
                 <p>Contacta al programador: 74431121923</p>

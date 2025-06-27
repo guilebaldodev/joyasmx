@@ -2,7 +2,7 @@ import Image from "next/image";
 import styles from "./css/Modal.module.css";
 
 // import {Select, SelectSection, SelectItem} from "@nextui-org/select";
-import { flowerCatalog, BullCategories, flowerCategories } from "@/consts";
+import { jewelryCatalog, flowerCategories, jewelryCategories } from "@/consts";
 
 
 type CategoryModalProps = {
@@ -47,8 +47,8 @@ const SaleModal = ({ closeModal }: CategoryModalProps) => {
             <div className={styles.input_duo}>
               <label htmlFor="">Producto vendido</label>
               <select>
-              {flowerCatalog &&
-                flowerCatalog.map((bull, id) => (
+              {jewelryCatalog &&
+                jewelryCatalog.map((bull, id) => (
                     <option key={id} value="someOption">{bull.titulo}</option>
                 ))}
       
@@ -68,7 +68,7 @@ const SaleModal = ({ closeModal }: CategoryModalProps) => {
               <label htmlFor="">Categoria</label>
               <select>
                     {
-                        flowerCategories && flowerCategories.map((category,index)=>(
+                        jewelryCategories && jewelryCategories.map((category,index)=>(
                     <option key={index} value="someOption">{category.nombre}</option>
 
                         ))

@@ -22,7 +22,7 @@ const ProductCard = ({ product }: ProductCardsProps) => {
 *${product.titulo}*
 ${product.categoria}
 Precio: $${formatPrice(product.precio)}
-${process.env.NEXT_PUBLIC_URL}/catalogo/${product.id}`;
+${process.env.NEXT_PUBLIC_URL}catalogo/${product.id}`;
 
   const whatsappUrl = `https://wa.me/${
     process.env.NEXT_PUBLIC_PHONE_NUMBER

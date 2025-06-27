@@ -1,4 +1,4 @@
-import {flowerDescription } from "./description";
+import {jewelryDescription } from "./description";
 
 export interface Product {
   id: number;
@@ -12,141 +12,138 @@ export interface Product {
 
 
 
-export const flowerCatalog: Product[] = [
+export const jewelryCatalog: Product[] = [
   // RAMOS
   {
     id: 1,
-    titulo: "Ramo de 100 Rosas Rojas",
-    descripcion: flowerDescription,
-    precio: 1800,
-    anterior: 2000,
+    titulo: "Anillo de compromiso con diamante",
+    descripcion: jewelryDescription,
+    precio: 28000,
+    anterior: 25000,
     img: [
       "/products/flowers/product-1/product-1-1.webp",
       "/products/flowers/product-1/product-1-2.webp",
     ],
-    categoria: "Ramos",
+    categoria: "Anillos",
   },
   {
     id: 2,
-    titulo: "Ramo de Mini Rosas Rosadas y Estate",
-    descripcion: flowerDescription,
-    precio: 550,
+    titulo: "Anillo de compromiso con diamante 0.17",
+    descripcion: jewelryDescription,
+    precio: 20500,
     img: [
       "/products/flowers/product-2/product-2-1.webp",
       "/products/flowers/product-2/product-2-2.webp",
     ],
-    categoria: "Ramos",
+    categoria: "Anillos",
   },
   {
     id: 3,
-    titulo: "Ramo de Mini Rosas Amarillas ",
-    descripcion: flowerDescription,
-    precio: 620,
+    titulo: "Argolla de matrimonio diseño clásico",
+    descripcion: jewelryDescription,
+    precio: 10500,
     img: [
       "/products/flowers/product-3/product-3-1.webp",
-      "/products/flowers/product-3/product-3-2.webp",
     ],
-    categoria: "Ramos",
+    categoria: "Anillos",
   },
   {
     id: 4,
-    titulo: "Ramo de Rosas Rosa, Lilis y Matsumoto",
-    descripcion: flowerDescription,
-    precio: 610,
+    titulo: "Argolla de matrimonio diseño media caña lisa",
+    descripcion: jewelryDescription,
+    precio: 11600,
     img: [
       "/products/flowers/product-4/product-4-1.webp",
       "/products/flowers/product-4/product-4-2.webp",
     ],
-    categoria: "Ramos",
+    categoria: "Anillos",
   },
 
   // FLOREROS
   {
     id: 5,
-    titulo: "Florero de Gerberas y Girasoles",
-    descripcion: flowerDescription,
-    precio: 920,
+    titulo: "Pulsera de oro 10 k acabado pulido",
+    descripcion: jewelryDescription,
+    precio: 3200,
     img: [
-      "/products/flowers/product-5/product-5-1.webp",
-      "/products/flowers/product-5/product-5-2.webp",
+      "/products/flowers/product-5/product-5-1.avif",
+      "/products/flowers/product-5/product-5-2.avif",
     ],
-    categoria: "Floreros",
+    categoria: "Pulseras",
   },
   {
     id: 6,
-    titulo: "Florero Rosas Amarillas",
-    descripcion: flowerDescription,
-    precio: 940,
+    titulo: "Esclava de Oro 10K gucci Oro",
+    descripcion: jewelryDescription,
+    precio: 4600,
     img: [
       "/products/flowers/product-6/product-6-1.webp",
       "/products/flowers/product-6/product-6-2.webp",
     ],
-    categoria: "Floreros",
+    categoria: "Pulseras",
   },
   {
     id: 7,
-    titulo: "Globo Burbuja de 24",
-    descripcion: flowerDescription,
-    precio: 900,
-    anterior: 100,
+    titulo: "Arracadas diseño especial en oro amarillo",
+    descripcion: jewelryDescription,
+    precio: 15000,
+    anterior: 13000,
     img: [
       "/products/flowers/product-7/product-7-1.webp",
       "/products/flowers/product-7/product-7-2.webp",
     ],
-    categoria: "Globos",
+    categoria: "Aretes",
   },
   {
     id: 8,
-    titulo: "Bunch de Globos",
-    descripcion: flowerDescription,
-    precio: 1400,
+    titulo: "Dos arracadas hechuras diferentes en oro dos tonos",
+    descripcion: jewelryDescription,
+    precio: 9800,
     img: [
       "/products/flowers/product-8/product-8-1.webp",
     ],
-    categoria: "Globos",
+    categoria: "Aretes",
   },
 
   // ROSAS
   {
     id: 9,
-    titulo: "Caja de Rosas Rojas",
-    descripcion: flowerDescription,
-    precio: 2100,
+    titulo: "GARGANTILLA ORO 14K",
+    descripcion: jewelryDescription,
+    precio: 4900,
     img: [
       "/products/flowers/product-9/product-9-1.webp",
-      "/products/flowers/product-9/product-9-2.webp",
     ],
-    categoria: "Cajas",
+    categoria: "Collares",
   },
 
   // CAJAS DE REGALO
   {
     id: 10,
-    titulo: "Caja de Rosas Amarillas",
-    descripcion: flowerDescription,
-    precio: 1950,
+    titulo: "CADENA CON DIJE CORAZON INFLADO ORO ROSA 14K",
+    descripcion: jewelryDescription,
+    precio: 10500,
     img: [
       "/products/flowers/product-10/product-10-1.webp",
-      "/products/flowers/product-10/product-10-2.webp",
     ],
-    categoria: "Cajas",
+    categoria: "Collares",
   },
 ];
 
+
 export const categoryOptions = [
-  { value: "Ramos", label: "Ramos" },
-  { value: "Floreros", label: "Floreros" },
-  { value: "Globos", label: "Globos" },
-  { value: "Cajas", label: "Cajas" },
+  { value: "Anillos", label: "Anillos" },
+  { value: "Collares", label: "Collares" },
+  { value: "Pulseras", label: "Pulseras" },
+  { value: "Aretes", label: "Aretes" },
 ];
 
-
-export const flowerSales = [
+export const jewelrySales = [
   {
     id: 1,
-    titulo: "Ramo de 100 Rosas Rojas",
-    descripcion: "Ramos",
-    precio: 1800,
+    titulo: "Anillo de compromiso con diamante",
+    descripcion: "Anillos",
+    precio: 28000,
     img: "/products/flowers/product-1/product-1-1.webp",
     estado: "pagado",
     fecha: "05/06/2025",
@@ -154,19 +151,19 @@ export const flowerSales = [
   },
   {
     id: 5,
-    titulo: "Florero de Gerberas y Girasoles",
-    descripcion: "Floreros",
-    precio: 920,
-    img: "/products/flowers/product-5/product-5-1.webp",
+    titulo: "Pulsera de oro 10 k acabado pulido",
+    descripcion: "Esclavas",
+    precio: 3200,
+    img: "/products/flowers/product-5/product-5-1.avif",
     estado: "pagado",
     fecha: "06/06/2025",
     color: "green",
   },
   {
     id: 7,
-    titulo: "Globo Burbuja de 24",
-    descripcion: "Globos",
-    precio: 900,
+    titulo: "Arracadas diseño especial en oro amarillo",
+    descripcion: "Aretes",
+    precio: 15000,
     img: "/products/flowers/product-7/product-7-1.webp",
     estado: "pendiente",
     fecha: "06/06/2025",
@@ -174,9 +171,9 @@ export const flowerSales = [
   },
   {
     id: 10,
-    titulo: "Caja de Rosas Amarillas",
-    descripcion: "Cajas",
-    precio: 1950,
+    titulo: "CADENA CON DIJE CORAZON INFLADO ORO ROSA 14K",
+    descripcion: "Collares",
+    precio: 10500,
     img: "/products/flowers/product-10/product-10-1.webp",
     estado: "cancelado",
     fecha: "07/06/2025",
@@ -184,23 +181,21 @@ export const flowerSales = [
   },
 ];
 
-
-
-export const flowerCategories = [
+export const jewelryCategories = [
   {
-    nombre: "Ramos",
+    nombre: "Anillos",
     productos: 4,
   },
   {
-    nombre: "Floreros",
+    nombre: "Esclavas",
     productos: 2,
   },
   {
-    nombre: "Globos",
+    nombre: "Aretes",
     productos: 2,
   },
   {
-    nombre: "Cajas",
+    nombre: "Collares",
     productos: 2,
   },
 ];
@@ -266,7 +261,7 @@ export const salesPieChart = {
     chart: {
       type: "pie",
     },
-  labels: ['Ramos', 'Floreros', 'Globos', 'Cajas'],
+  labels: ['Anillos', 'Collares', 'Pulseras', 'Aretes'],  
     colors: ['#4CAF50', '#FF9800', '#2196F3', '#9C27B0'], // Colores personalizados más vibrantes
     legend: {
       position: "top", // Coloca los labels arriba del gráfico
@@ -304,19 +299,19 @@ export const salesLineChart = {
 
   series: [
     {
-      name: "Ramos",
+      name: "Pulseras",
       data: [32, 45, 38, 60, 50, 47, 65, 55, 70, 40, 62, 75] // Ventas mensuales para "Toro"
     },
     {
-      name: "Floreros",
+      name: "Anillos",
       data: [23, 28, 22, 34, 29, 51, 40, 57, 30, 69, 52, 63] // Ventas mensuales para "Inflables"
     },
     {
-      name: "Globos",
+      name: "Collares",
       data: [12, 15, 20, 18, 30, 25, 43, 37, 42, 38, 55, 50] // Ventas mensuales para "Accesorios"
     },
     {
-      name: "Cajas",
+      name: "Aretes",
       data: [27, 30, 45, 35, 55, 52, 63, 60, 65, 50, 42, 72] // Ventas mensuales para "Refacciones"
     }
   ]

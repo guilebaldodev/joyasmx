@@ -70,7 +70,7 @@ const Header = () => {
         <div className={styles["header-title"]}>
           <Image src={"/layout/icon.png"} width={45} height={45} alt="logo" />
           <h3>
-            <Link href={"/"}>FLORES MX</Link>
+            <Link href={"/"}>JOYAS MX</Link>
           </h3>
         </div>
 
